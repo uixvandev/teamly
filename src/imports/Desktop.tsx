@@ -741,7 +741,7 @@ function Footer() {
       <Frame26 />
       <Frame61 />
       <div className="font-['Plus_Jakarta_Sans:Regular',_sans-serif] leading-[0] not-italic relative shrink-0 text-[17px] text-center text-nowrap text-white">
-        <p className="leading-[normal] whitespace-pre">© Hirai.io</p>
+        <p className="leading-[normal] whitespace-pre">© Teamly</p>
       </div>
     </div>
   );

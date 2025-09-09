@@ -8,11 +8,15 @@ export function Footer() {
           {/* Logo */}
           <div className="flex items-center gap-2">
             <div className="w-8 h-8">
-              <img src={imgFrame5} alt="Teamly Logo" className="w-full h-full" />
+              <img
+                src={imgFrame5}
+                alt="Teamly Logo"
+                className="w-full h-full"
+              />
             </div>
             <span className="text-2xl font-bold text-white">Teamly</span>
           </div>
-          
+
           {/* Links */}
           <div className="flex flex-wrap justify-center gap-8 text-lg">
             <a href="#" className="hover:text-gray-300 transition-colors">
@@ -22,11 +26,9 @@ export function Footer() {
               Privacy Policy
             </a>
           </div>
-          
+
           {/* Copyright */}
-          <p className="text-lg opacity-80">
-            © Hirai.io
-          </p>
+          <p className="text-lg opacity-80">© Teamly</p>
         </div>
       </div>
     </footer>

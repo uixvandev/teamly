@@ -1,7 +1,21 @@
 import imgImage1 from "figma:asset/b114d164c90ed87f8e3af29074bdf622b10c8be9.png";
 import imgImage3 from "figma:asset/ce359589ae1e7654899cb2681dd7161fd7aeab5d.png";
 import imgImage4 from "figma:asset/3d3bb4f74afb2c31cc6423927a48f29a9248ad5c.png";
-import { imgArrowUpCircle, imgEllipse1, imgPeopleNetworkPartner, imgInsightAlt, imgArtificialIntelligence1, imgPhoneGuide1, imgCalendar, imgPercent1001, imgTimeFast1, imgAssessment1, imgFrame5, imgEllipse2, imgEllipse3 } from "./svg-et2gh";
+import {
+  imgArrowUpCircle,
+  imgEllipse1,
+  imgPeopleNetworkPartner,
+  imgInsightAlt,
+  imgArtificialIntelligence1,
+  imgPhoneGuide1,
+  imgCalendar,
+  imgPercent1001,
+  imgTimeFast1,
+  imgAssessment1,
+  imgFrame5,
+  imgEllipse2,
+  imgEllipse3,
+} from "./svg-et2gh";
 
 function ArrowUpCircle() {
   return (
@@ -54,7 +68,10 @@ function Frame41() {
   return (
     <div className="content-stretch flex gap-2 items-start justify-start relative shrink-0 w-full">
       <div className="basis-0 font-['Inter:Regular',_sans-serif] font-normal grow leading-[0] min-h-px min-w-px not-italic relative shrink-0 text-[#6b6b6b] text-[16px] tracking-[-0.176px]">
-        <p className="leading-[24px]">A: hirai.io utilizes advanced AI algorithms to deliver highly accurate and relevant matches based on your specified criteria.</p>
+        <p className="leading-[24px]">
+          A: hirai.io utilizes advanced AI algorithms to deliver highly accurate
+          and relevant matches based on your specified criteria.
+        </p>
       </div>
     </div>
   );
@@ -62,7 +79,10 @@ function Frame41() {
 
 function Faq() {
   return (
-    <div className="bg-white relative rounded-[24px] shadow-[2px_4px_16px_0px_rgba(79,76,255,0.1)] shrink-0 w-full" data-name="FAQ">
+    <div
+      className="bg-white relative rounded-[24px] shadow-[2px_4px_16px_0px_rgba(79,76,255,0.1)] shrink-0 w-full"
+      data-name="FAQ"
+    >
       <div className="relative size-full">
         <div className="box-border content-stretch flex flex-col gap-2 items-start justify-start p-[16px] relative w-full">
           <Frame40 />
@@ -85,7 +105,9 @@ function Frame48() {
   return (
     <div className="absolute content-stretch flex flex-col gap-8 items-start justify-start left-[184px] top-[1956px] w-[1144px]">
       <div className="font-['Plus_Jakarta_Sans:Medium',_sans-serif] h-11 leading-[0] not-italic relative shrink-0 text-[#141414] text-[0px] text-center tracking-[-0.792px] w-full">
-        <p className="font-['Plus_Jakarta_Sans:Bold',_sans-serif] leading-[44px] text-[36px]">Before You Ask</p>
+        <p className="font-['Plus_Jakarta_Sans:Bold',_sans-serif] leading-[44px] text-[36px]">
+          Before You Ask
+        </p>
       </div>
       <Frame43 />
     </div>
@@ -95,24 +117,39 @@ function Frame48() {
 function Frame13() {
   return (
     <div className="absolute bg-gradient-to-b from-[#f0f0ff] h-[764px] left-[37px] overflow-clip rounded-[24px] to-[#fefefe] top-[41px] w-[1438px]">
-      <div className="absolute bottom-[-230px] size-[305px] translate-x-[-50%]" style={{ left: "calc(50% - 0.5px)" }}>
+      <div
+        className="absolute bottom-[-230px] size-[305px] translate-x-[-50%]"
+        style={{ left: "calc(50% - 0.5px)" }}
+      >
         <div className="absolute inset-[-100.984%]">
           <img className="block max-w-none size-full" src={imgEllipse1} />
         </div>
       </div>
       <div className="absolute flex h-[293.983px] items-center justify-center left-[-68.04px] top-[537.6px] w-[293.983px]">
         <div className="flex-none rotate-[352.951deg]">
-          <div className="bg-center bg-cover bg-no-repeat blur-[5px] filter size-[263.63px]" data-name="image 1" style={{ backgroundImage: `url('${imgImage1}')` }} />
+          <div
+            className="bg-center bg-cover bg-no-repeat blur-[5px] filter size-[263.63px]"
+            data-name="image 1"
+            style={{ backgroundImage: `url('${imgImage1}')` }}
+          />
         </div>
       </div>
       <div className="absolute flex h-[245.449px] items-center justify-center left-[1252px] top-[578px] w-[245.449px]">
         <div className="flex-none rotate-[342.21deg]">
-          <div className="bg-center bg-cover bg-no-repeat blur-[2px] filter size-[195.166px]" data-name="image 3" style={{ backgroundImage: `url('${imgImage3}')` }} />
+          <div
+            className="bg-center bg-cover bg-no-repeat blur-[2px] filter size-[195.166px]"
+            data-name="image 3"
+            style={{ backgroundImage: `url('${imgImage3}')` }}
+          />
         </div>
       </div>
       <div className="absolute flex h-[129.753px] items-center justify-center left-[1332.82px] top-[133.82px] w-[129.753px]">
         <div className="flex-none rotate-[225.271deg]">
-          <div className="bg-center bg-cover bg-no-repeat blur-[2px] filter size-[91.76px]" data-name="image 4" style={{ backgroundImage: `url('${imgImage4}')` }} />
+          <div
+            className="bg-center bg-cover bg-no-repeat blur-[2px] filter size-[91.76px]"
+            data-name="image 4"
+            style={{ backgroundImage: `url('${imgImage4}')` }}
+          />
         </div>
       </div>
     </div>
@@ -121,8 +158,14 @@ function Frame13() {
 
 function PeopleNetworkPartner() {
   return (
-    <div className="relative shrink-0 size-12" data-name="people-network-partner">
-      <img className="block max-w-none size-full" src={imgPeopleNetworkPartner} />
+    <div
+      className="relative shrink-0 size-12"
+      data-name="people-network-partner"
+    >
+      <img
+        className="block max-w-none size-full"
+        src={imgPeopleNetworkPartner}
+      />
     </div>
   );
 }
@@ -134,7 +177,10 @@ function Frame9() {
         <p className="leading-[32px]">Create Your Profile</p>
       </div>
       <div className="font-['Inter:Regular',_sans-serif] font-normal relative shrink-0 text-[#6b6b6b] text-[16px] tracking-[-0.176px] w-full">
-        <p className="leading-[24px]">Create a profile with your skills, interests, values, and professional goals.</p>
+        <p className="leading-[24px]">
+          Create a profile with your skills, interests, values, and professional
+          goals.
+        </p>
       </div>
     </div>
   );
@@ -168,7 +214,10 @@ function Frame12() {
         <p className="leading-[32px]">Perfect Match</p>
       </div>
       <div className="font-['Inter:Regular',_sans-serif] font-normal relative shrink-0 text-[#6b6b6b] text-[16px] tracking-[-0.176px] w-full">
-        <p className="leading-[24px]">AI algorithms find the best matches for partners, co-founders, or teams.</p>
+        <p className="leading-[24px]">
+          AI algorithms find the best matches for partners, co-founders, or
+          teams.
+        </p>
       </div>
     </div>
   );
@@ -189,15 +238,24 @@ function Frame45() {
 
 function ArtificialIntelligence1() {
   return (
-    <div className="absolute bottom-0 left-[-0.89%] right-[0.89%] top-0" data-name="artificial-intelligence 1">
-      <img className="block max-w-none size-full" src={imgArtificialIntelligence1} />
+    <div
+      className="absolute bottom-0 left-[-0.89%] right-[0.89%] top-0"
+      data-name="artificial-intelligence 1"
+    >
+      <img
+        className="block max-w-none size-full"
+        src={imgArtificialIntelligence1}
+      />
     </div>
   );
 }
 
 function PeopleNetworkPartner1() {
   return (
-    <div className="overflow-clip relative shrink-0 size-12" data-name="people-network-partner">
+    <div
+      className="overflow-clip relative shrink-0 size-12"
+      data-name="people-network-partner"
+    >
       <ArtificialIntelligence1 />
     </div>
   );
@@ -210,7 +268,10 @@ function Frame15() {
         <p className="leading-[32px]">{`AI Scoring & Reasoning`}</p>
       </div>
       <div className="font-['Inter:Regular',_sans-serif] font-normal relative shrink-0 text-[#6b6b6b] text-[16px] tracking-[-0.176px] w-full">
-        <p className="leading-[24px]">Receive an in-depth report, compatibility score + logical reasons why a partner is ideal for you.</p>
+        <p className="leading-[24px]">
+          Receive an in-depth report, compatibility score + logical reasons why
+          a partner is ideal for you.
+        </p>
       </div>
     </div>
   );
@@ -244,7 +305,10 @@ function Frame16() {
         <p className="leading-[32px]">Build Together</p>
       </div>
       <div className="font-['Inter:Regular',_sans-serif] font-normal relative shrink-0 text-[#6b6b6b] text-[16px] tracking-[-0.176px] w-full">
-        <p className="leading-[24px]">Start chatting, brainstorming ideas, and drafting initial reports on the platform before building a business together.</p>
+        <p className="leading-[24px]">
+          Start chatting, brainstorming ideas, and drafting initial reports on
+          the platform before building a business together.
+        </p>
       </div>
     </div>
   );
@@ -278,7 +342,9 @@ function Frame51() {
   return (
     <div className="absolute content-stretch flex flex-col gap-16 items-center justify-center left-[184px] top-[933px] w-[1145px]">
       <div className="font-['Plus_Jakarta_Sans:Medium',_sans-serif] h-11 leading-[0] not-italic relative shrink-0 text-[#141414] text-[0px] text-center tracking-[-0.792px] w-full">
-        <p className="font-['Plus_Jakarta_Sans:Bold',_sans-serif] leading-[44px] text-[36px]">How it Works?</p>
+        <p className="font-['Plus_Jakarta_Sans:Bold',_sans-serif] leading-[44px] text-[36px]">
+          How it Works?
+        </p>
       </div>
       <Frame49 />
     </div>
@@ -287,7 +353,10 @@ function Frame51() {
 
 function Button() {
   return (
-    <div className="bg-[#683df3] box-border content-stretch flex gap-2 items-center justify-center px-6 py-3 relative rounded-[16px] shadow-[2px_12px_48px_0px_rgba(79,76,255,0.32)] shrink-0" data-name="Button">
+    <div
+      className="bg-[#683df3] box-border content-stretch flex gap-2 items-center justify-center px-6 py-3 relative rounded-[16px] shadow-[2px_12px_48px_0px_rgba(79,76,255,0.32)] shrink-0"
+      data-name="Button"
+    >
       <div className="font-['Inter:Medium',_sans-serif] font-medium leading-[0] not-italic relative shrink-0 text-[14px] text-center text-nowrap text-white tracking-[-0.084px]">
         <p className="leading-[20px] whitespace-pre">Join the waitlist</p>
       </div>
@@ -298,14 +367,20 @@ function Button() {
 function Frame1() {
   return (
     <div className="absolute content-stretch flex flex-col gap-8 items-center justify-center left-1/2 top-[272px] translate-x-[-50%] w-[1144px]">
-      <div className="css-n5l0hi font-['Sora:ExtraBold',_sans-serif] font-extrabold leading-[0] min-w-full relative shrink-0 text-[#141414] text-[52px] text-center" style={{ width: "min-content" }}>
+      <div
+        className="css-n5l0hi font-['Sora:ExtraBold',_sans-serif] font-extrabold leading-[0] min-w-full relative shrink-0 text-[#141414] text-[52px] text-center"
+        style={{ width: "min-content" }}
+      >
         <p className="leading-[normal]">
           <span>{`Find, Match, and Build Faster with `}</span>
           <span className="text-[#683df3]">Teamly</span>
           <span>{` AI-Powered Team & Co-Founder Matching Made Simple.`}</span>
         </p>
       </div>
-      <div className="font-['Plus_Jakarta_Sans:Medium',_sans-serif] leading-[0] min-w-full not-italic relative shrink-0 text-[#6b6b6b] text-[20px] text-center tracking-[-0.34px]" style={{ width: "min-content" }}>
+      <div
+        className="font-['Plus_Jakarta_Sans:Medium',_sans-serif] leading-[0] min-w-full not-italic relative shrink-0 text-[#6b6b6b] text-[20px] text-center tracking-[-0.34px]"
+        style={{ width: "min-content" }}
+      >
         <p className="leading-[28px]">{`Stop guessing who’s the right fit. Let Teamly’s AI Scoring & Reasoning guide you to partners who truly align, so you can focus less on searching and more on building.`}</p>
       </div>
       <Button />
@@ -341,7 +416,10 @@ function IconlyLightCalendar1() {
 
 function Button1() {
   return (
-    <div className="bg-white box-border content-stretch flex gap-2 items-center justify-center px-6 py-4 relative rounded-[16px] shadow-[2px_4px_16px_0px_rgba(79,76,255,0.12)] shrink-0" data-name="Button">
+    <div
+      className="bg-white box-border content-stretch flex gap-2 items-center justify-center px-6 py-4 relative rounded-[16px] shadow-[2px_4px_16px_0px_rgba(79,76,255,0.12)] shrink-0"
+      data-name="Button"
+    >
       <div className="font-['Inter:Medium',_sans-serif] font-medium leading-[0] not-italic relative shrink-0 text-[#683df3] text-[0px] text-center text-nowrap tracking-[-0.084px]">
         <p className="font-['Inter:Bold',_sans-serif] font-bold leading-[20px] text-[14px] whitespace-pre">{`Join the waitlist`}</p>
       </div>
@@ -352,12 +430,24 @@ function Button1() {
 
 function Frame14() {
   return (
-    <div className="absolute content-stretch flex flex-col gap-8 items-center justify-start left-1/2 translate-x-[-50%] translate-y-[-50%] w-[1028px]" style={{ top: "calc(50% - 0.025px)" }}>
+    <div
+      className="absolute content-stretch flex flex-col gap-8 items-center justify-start left-1/2 translate-x-[-50%] translate-y-[-50%] w-[1028px]"
+      style={{ top: "calc(50% - 0.025px)" }}
+    >
       <div className="font-['Plus_Jakarta_Sans:Medium',_sans-serif] leading-[0] not-italic relative shrink-0 text-[36px] text-center text-nowrap text-white tracking-[-0.792px]">
-        <p className="leading-[44px] whitespace-pre">Ready to seek team smarter?</p>
+        <p className="leading-[44px] whitespace-pre">
+          Ready to seek team smarter?
+        </p>
       </div>
-      <div className="font-['Plus_Jakarta_Sans:Medium',_sans-serif] leading-[0] min-w-full not-italic relative shrink-0 text-[28px] text-center text-white tracking-[-0.588px]" style={{ width: "min-content" }}>
-        <p className="leading-[36px]">Recruitment is slow, and present a lot of uncertainities. Our AI streamlines candidate selection, making hiring faster and more accurate.</p>
+      <div
+        className="font-['Plus_Jakarta_Sans:Medium',_sans-serif] leading-[0] min-w-full not-italic relative shrink-0 text-[28px] text-center text-white tracking-[-0.588px]"
+        style={{ width: "min-content" }}
+      >
+        <p className="leading-[36px]">
+          Recruitment is slow, and present a lot of uncertainities. Our AI
+          streamlines candidate selection, making hiring faster and more
+          accurate.
+        </p>
       </div>
       <Button1 />
     </div>
@@ -384,10 +474,15 @@ function Frame17() {
   return (
     <div className="content-stretch flex flex-col gap-1 items-start justify-start leading-[0] not-italic relative shrink-0 text-center w-full">
       <div className="font-['Plus_Jakarta_Sans:Medium',_sans-serif] relative shrink-0 text-[0px] text-black tracking-[-0.34px] w-full">
-        <p className="font-['Plus_Jakarta_Sans:Bold',_sans-serif] leading-[28px] text-[20px]">Precision Matches</p>
+        <p className="font-['Plus_Jakarta_Sans:Bold',_sans-serif] leading-[28px] text-[20px]">
+          Precision Matches
+        </p>
       </div>
       <div className="font-['Inter:Regular',_sans-serif] font-normal relative shrink-0 text-[#6b6b6b] text-[16px] tracking-[-0.176px] w-full">
-        <p className="leading-[24px]">AI Scoring assesses skills, values, and work styles for accurate recommendations.</p>
+        <p className="leading-[24px]">
+          AI Scoring assesses skills, values, and work styles for accurate
+          recommendations.
+        </p>
       </div>
     </div>
   );
@@ -422,7 +517,9 @@ function Frame19() {
   return (
     <div className="content-stretch flex flex-col gap-1 items-start justify-start leading-[0] not-italic relative shrink-0 text-center w-full">
       <div className="font-['Plus_Jakarta_Sans:Medium',_sans-serif] relative shrink-0 text-[0px] text-black tracking-[-0.34px] w-full">
-        <p className="font-['Plus_Jakarta_Sans:Bold',_sans-serif] leading-[28px] text-[20px]">Time-Saving</p>
+        <p className="font-['Plus_Jakarta_Sans:Bold',_sans-serif] leading-[28px] text-[20px]">
+          Time-Saving
+        </p>
       </div>
       <div className="font-['Inter:Regular',_sans-serif] font-normal relative shrink-0 text-[#6b6b6b] text-[16px] tracking-[-0.176px] w-full">
         <p className="leading-[24px]">{`Automated search & filtering of profiles starts chatting in seconds`}</p>
@@ -460,10 +557,15 @@ function Frame22() {
   return (
     <div className="content-stretch flex flex-col gap-1 items-start justify-start leading-[0] not-italic relative shrink-0 text-center w-full">
       <div className="font-['Plus_Jakarta_Sans:Medium',_sans-serif] relative shrink-0 text-[0px] text-black tracking-[-0.34px] w-full">
-        <p className="font-['Plus_Jakarta_Sans:Bold',_sans-serif] leading-[28px] text-[20px]">Complete Transparency</p>
+        <p className="font-['Plus_Jakarta_Sans:Bold',_sans-serif] leading-[28px] text-[20px]">
+          Complete Transparency
+        </p>
       </div>
       <div className="font-['Inter:Regular',_sans-serif] font-normal relative shrink-0 text-[#6b6b6b] text-[16px] tracking-[-0.176px] w-full">
-        <p className="leading-[24px]">AI Reasoning explains in detail why someone is suitable for your criteria.</p>
+        <p className="leading-[24px]">
+          AI Reasoning explains in detail why someone is suitable for your
+          criteria.
+        </p>
       </div>
     </div>
   );
@@ -504,10 +606,15 @@ function Frame18() {
   return (
     <div className="absolute content-stretch flex flex-col gap-8 items-start justify-start left-[184px] top-[1476px] w-[1144px]">
       <div className="font-['Plus_Jakarta_Sans:Medium',_sans-serif] h-11 leading-[0] not-italic relative shrink-0 text-[#141414] text-[0px] text-center tracking-[-0.792px] w-full">
-        <p className="font-['Plus_Jakarta_Sans:Bold',_sans-serif] leading-[44px] text-[36px]">Why Teamly?</p>
+        <p className="font-['Plus_Jakarta_Sans:Bold',_sans-serif] leading-[44px] text-[36px]">
+          Why Teamly?
+        </p>
       </div>
       <div className="font-['Plus_Jakarta_Sans:Medium',_sans-serif] leading-[0] not-italic relative shrink-0 text-[#6b6b6b] text-[20px] text-center tracking-[-0.34px] w-full">
-        <p className="leading-[28px]">Empowering team formation with AI technology designed to save time, reduce risk, and enhance matching accuracy.</p>
+        <p className="leading-[28px]">
+          Empowering team formation with AI technology designed to save time,
+          reduce risk, and enhance matching accuracy.
+        </p>
       </div>
       <Frame11 />
     </div>
@@ -535,7 +642,10 @@ function Frame7() {
 
 function Button2() {
   return (
-    <div className="box-border content-stretch flex gap-1 items-center justify-center px-4 py-2 relative rounded-[16px] shrink-0" data-name="Button">
+    <div
+      className="box-border content-stretch flex gap-1 items-center justify-center px-4 py-2 relative rounded-[16px] shrink-0"
+      data-name="Button"
+    >
       <div className="font-['Inter:Medium',_sans-serif] font-medium leading-[0] not-italic relative shrink-0 text-[#683df3] text-[14px] text-center text-nowrap tracking-[-0.084px]">
         <p className="leading-[20px] whitespace-pre">Login</p>
       </div>
@@ -545,7 +655,10 @@ function Button2() {
 
 function Button3() {
   return (
-    <div className="bg-[#683df3] box-border content-stretch flex gap-1 items-center justify-center px-4 py-3 relative rounded-[16px] shrink-0" data-name="Button">
+    <div
+      className="bg-[#683df3] box-border content-stretch flex gap-1 items-center justify-center px-4 py-3 relative rounded-[16px] shrink-0"
+      data-name="Button"
+    >
       <div className="font-['Inter:Medium',_sans-serif] font-medium leading-[0] not-italic relative shrink-0 text-[14px] text-center text-nowrap text-white tracking-[-0.084px]">
         <p className="leading-[20px] whitespace-pre">Join the waitlist</p>
       </div>
@@ -606,10 +719,14 @@ function Frame61() {
   return (
     <div className="content-stretch flex font-['Plus_Jakarta_Sans:Regular',_sans-serif] gap-8 items-center justify-start leading-[0] not-italic relative shrink-0 text-[17px] text-center text-nowrap text-white">
       <div className="relative shrink-0">
-        <p className="leading-[normal] text-nowrap whitespace-pre">Terms of Use</p>
+        <p className="leading-[normal] text-nowrap whitespace-pre">
+          Terms of Use
+        </p>
       </div>
       <div className="relative shrink-0">
-        <p className="leading-[normal] text-nowrap whitespace-pre">Privacy Policy</p>
+        <p className="leading-[normal] text-nowrap whitespace-pre">
+          Privacy Policy
+        </p>
       </div>
     </div>
   );
@@ -617,11 +734,14 @@ function Frame61() {
 
 function Footer() {
   return (
-    <div className="absolute bg-[#141414] bottom-[-0.03px] box-border content-stretch flex flex-col gap-6 h-[187px] items-center justify-center left-1/2 px-[200px] py-8 translate-x-[-50%] w-[1512px]" data-name="Footer">
+    <div
+      className="absolute bg-[#141414] bottom-[-0.03px] box-border content-stretch flex flex-col gap-6 h-[187px] items-center justify-center left-1/2 px-[200px] py-8 translate-x-[-50%] w-[1512px]"
+      data-name="Footer"
+    >
       <Frame26 />
       <Frame61 />
       <div className="font-['Plus_Jakarta_Sans:Regular',_sans-serif] leading-[0] not-italic relative shrink-0 text-[17px] text-center text-nowrap text-white">
-        <p className="leading-[normal] whitespace-pre">© Hirai.io</p>
+        <p className="leading-[normal] whitespace-pre">© Teamly</p>
       </div>
     </div>
   );
@@ -630,12 +750,18 @@ function Footer() {
 export default function Desktop() {
   return (
     <div className="bg-white relative size-full" data-name="Desktop">
-      <div className="absolute size-[282px] top-[1790px]" style={{ left: "calc(8.333% + 160px)" }}>
+      <div
+        className="absolute size-[282px] top-[1790px]"
+        style={{ left: "calc(8.333% + 160px)" }}
+      >
         <div className="absolute inset-[-354.61%]">
           <img className="block max-w-none size-full" src={imgEllipse2} />
         </div>
       </div>
-      <div className="absolute size-[282px] top-[1480px]" style={{ left: "calc(83.333% - 123px)" }}>
+      <div
+        className="absolute size-[282px] top-[1480px]"
+        style={{ left: "calc(83.333% - 123px)" }}
+      >
         <div className="absolute inset-[-354.61%]">
           <img className="block max-w-none size-full" src={imgEllipse3} />
         </div>
@@ -646,7 +772,10 @@ export default function Desktop() {
       <Frame1 />
       <Frame53 />
       <Frame18 />
-      <div className="absolute bottom-0 left-[184px] pointer-events-none top-[83px]" style={{ height: "calc(100% - 83px)" }}>
+      <div
+        className="absolute bottom-0 left-[184px] pointer-events-none top-[83px]"
+        style={{ height: "calc(100% - 83px)" }}
+      >
         <Frame52 />
       </div>
       <Footer />

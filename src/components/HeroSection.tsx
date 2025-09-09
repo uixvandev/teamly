@@ -121,7 +121,10 @@ export function HeroSection() {
           searching and more on building.
         </motion.p>
 
-        <motion.button
+        <motion.a
+          href="https://form.typeform.com/to/REw9QVIV"
+          target="_blank"
+          rel="noopener noreferrer"
           className="bg-[#683df3] text-white px-6 py-3 rounded-2xl shadow-lg hover:bg-[#683df3]/90 transition-all duration-200 transform hover:scale-105"
           initial={{ opacity: 0, scale: 0.9 }}
           whileInView={{ opacity: 1, scale: 1 }}
@@ -131,7 +134,7 @@ export function HeroSection() {
           whileTap={{ scale: 0.95 }}
         >
           Join the waitlist
-        </motion.button>
+        </motion.a>
       </motion.div>
     </section>
   );
