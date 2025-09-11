@@ -42,7 +42,11 @@ export function WhyTeamlySection() {
         transition={{ duration: 1, delay: 0.2 }}
         viewport={{ once: true }}
       >
-        <img src={imgEllipse2} alt="" className="w-full h-full" />
+        <img
+          src={imgEllipse2}
+          alt="Decorative background element"
+          className="w-full h-full"
+        />
       </motion.div>
       <motion.div
         className="absolute right-8 top-0 w-32 h-32 opacity-30 pointer-events-none"
@@ -51,7 +55,11 @@ export function WhyTeamlySection() {
         transition={{ duration: 1, delay: 0.4 }}
         viewport={{ once: true }}
       >
-        <img src={imgEllipse3} alt="" className="w-full h-full" />
+        <img
+          src={imgEllipse3}
+          alt="Decorative background element"
+          className="w-full h-full"
+        />
       </motion.div>
 
       <div className="max-w-7xl mx-auto relative z-10">
@@ -98,7 +106,7 @@ export function WhyTeamlySection() {
                 >
                   <img
                     src={benefit.icon}
-                    alt=""
+                    alt={`${benefit.title} icon`}
                     className="w-full h-full object-contain"
                   />
                 </motion.div>

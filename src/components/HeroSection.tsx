@@ -27,7 +27,7 @@ export function HeroSection() {
           >
             <img
               src={imgEllipse1}
-              alt=""
+              alt="Decorative background blur for visual appeal"
               className="w-64 h-64 lg:w-80 lg:h-80"
             />
           </motion.div>
@@ -42,7 +42,7 @@ export function HeroSection() {
           >
             <img
               src={imgImage1}
-              alt=""
+              alt="Illustrative image of team collaboration"
               className="w-48 h-48 object-cover rounded-2xl blur-sm opacity-60"
               style={{ filter: "blur(5px)" }}
             />
@@ -57,7 +57,7 @@ export function HeroSection() {
           >
             <img
               src={imgImage3}
-              alt=""
+              alt="Creative team building visual"
               className="w-40 h-40 object-cover rounded-2xl blur-sm opacity-60"
               style={{ filter: "blur(2px)" }}
             />
@@ -72,7 +72,7 @@ export function HeroSection() {
           >
             <img
               src={imgImage4}
-              alt=""
+              alt="Dynamic team interaction illustration"
               className="w-24 h-24 object-cover rounded-2xl blur-sm opacity-60"
               style={{ filter: "blur(2px)" }}
             />

@@ -4,32 +4,42 @@ import { imgArrowUpCircle } from "../imports/svg-et2gh";
 
 const faqs = [
   {
-    question: "Q: How accurate is hirai.io's candidate matching?",
+    question: "Q: What is Teamly?",
     answer:
-      "A: hirai.io utilizes advanced AI algorithms to deliver highly accurate and relevant matches based on your specified criteria.",
+      "Teamly is an AI-powered platform that helps founders find the right co-founders, talent, and investors — aligned in vision, skills, and values.",
+  },
+  {
+    question: "Q: How accurate is Teamly's candidate matching?",
+    answer:
+      "Our AI analyzes skills, personality, and goals. Matches are optimized for compatibility and execution potential, not just surface-level interests.",
   },
   {
     question: "Q: How does the AI scoring system work?",
     answer:
-      "A: Our AI analyzes multiple factors including skills, experience, work style, values, and goals to create compatibility scores and detailed reasoning for each match.",
+      "Teamly assigns a compatibility score based on data from your profile, preferences, and behavior, so you can focus on the most relevant connections.",
   },
   {
-    question: "Q: Is my data secure on the platform?",
+    question: "Q: Who can use Teamly?",
     answer:
-      "A: Yes, we implement enterprise-grade security measures to protect your personal and professional information with end-to-end encryption.",
+      "1. Founders looking for co-founders.<br>2. Entrepreneurs & professionals seeking the right team.<br>3. Investors & mentors exploring strong teams to support.",
   },
   {
     question: "Q: How quickly can I start connecting with potential partners?",
     answer:
-      "A: Once your profile is complete, you can start receiving matches within minutes and begin connecting immediately.",
+      "Immediately. Once your profile is complete, Teamly's AI recommends co-founders or teams you can connect with right away.",
+  },
+  {
+    question: "Q: What makes Teamly different from other networking platforms?",
+    answer:
+      "Unlike generic networking apps, Teamly focuses on team formation & execution with AI-powered matching, Super Swipe, token-based interaction, and full ecosystem support (mentoring, hiring, investor access).",
   },
 ];
 
 export function FAQSection() {
-  const [openIndex, setOpenIndex] = useState<number | null>(0);
+  const [openIndex, setOpenIndex] = useState(0);
 
   const toggleFAQ = (index: number) => {
-    setOpenIndex(openIndex === index ? null : index);
+    setOpenIndex(openIndex === index ? -1 : index);
   };
 
   return (
@@ -71,7 +81,7 @@ export function FAQSection() {
                 >
                   <img
                     src={imgArrowUpCircle}
-                    alt=""
+                    alt="Toggle FAQ answer"
                     className="w-full h-full"
                   />
                 </motion.div>
@@ -81,13 +91,16 @@ export function FAQSection() {
                 className="overflow-hidden"
                 initial={false}
                 animate={{
-                  maxHeight: openIndex === index ? 200 : 0,
+                  maxHeight: openIndex === index ? 250 : 0,
                   paddingBottom: openIndex === index ? 24 : 0,
                 }}
                 transition={{ duration: 0.3 }}
               >
                 <div className="px-6">
-                  <p className="text-[#6b6b6b] leading-relaxed">{faq.answer}</p>
+                  <p
+                    className="text-[#6b6b6b] leading-relaxed"
+                    dangerouslySetInnerHTML={{ __html: faq.answer }}
+                  ></p>
                 </div>
               </motion.div>
             </motion.div>
