@@ -444,9 +444,8 @@ function Frame14() {
         style={{ width: "min-content" }}
       >
         <p className="leading-[36px]">
-          Recruitment is slow, and present a lot of uncertainities. Our AI
-          streamlines candidate selection, making hiring faster and more
-          accurate.
+          Team building is full of uncertainties. Teamly uses AI to streamline
+          matching, reduce risk, and connect you with people who truly fit.
         </p>
       </div>
       <Button1 />

@@ -10,9 +10,9 @@ export function CTASection() {
               Ready to seek team smarter?
             </h2>
             <p className="text-lg lg:text-xl lg:text-2xl mb-8 max-w-4xl mx-auto leading-relaxed opacity-90">
-              Recruitment is slow, and present a lot of uncertainities. Our AI
-              streamlines candidate selection, making hiring faster and more
-              accurate.
+              Team building is full of uncertainties. Teamly uses AI to
+              streamline matching, reduce risk, and connect you with people who
+              truly fit.
             </p>
             <button className="bg-white text-[#683df3] px-6 py-4 rounded-2xl font-bold inline-flex items-center gap-2 hover:bg-gray-50 transition-colors duration-200 shadow-lg">
               <span>Join the waitlist</span>

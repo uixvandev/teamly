@@ -29,9 +29,9 @@ export function CTASection() {
               transition={{ duration: 0.6, delay: 0.4 }}
               viewport={{ once: true }}
             >
-              Recruitment is slow, and present a lot of uncertainities. Our AI
-              streamlines candidate selection, making hiring faster and more
-              accurate.
+              Team building is full of uncertainties. Teamly uses AI to
+              streamline matching, reduce risk, and connect you with people who
+              truly fit.
             </motion.p>
             <motion.a
               href="https://form.typeform.com/to/REw9QVIV"
